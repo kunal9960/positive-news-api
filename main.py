@@ -1,9 +1,10 @@
 import requests
+import os
 from send_email import send_email
 
-api_key = "1b029027b0404e2cb6c8e7cb30d8c932"
+api = os.getenv("API")
 url = ("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey="
-       "1b029027b0404e2cb6c8e7cb30d8c932")
+       f"{api}")
 
 # Make request
 request = requests.get(url)
