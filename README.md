@@ -1,6 +1,9 @@
 # News Email Digest 🗞️
 
-This Python script fetches the latest news articles from TechCrunch using the News API and sends them via email.
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/kunal9960)
+
+This Python script fetches the latest news articles from [TechCrunch](https://techcrunch.com/) using the News API and sends them via email.
 
 
 ## Requirements
@@ -43,14 +46,16 @@ You can customize various parameters to tailor the news digest to your preferenc
 - **Domains:** Specify one or more domains to filter news articles by domain. This parameter allows you to receive news articles only from specific domains (e.g. bbc.co.uk, techcrunch.com, engadget.com etc.)
 
 
-## Screenshots
+## Preview
 
 ### Example
 
 ![Example](https://github.com/kunal9960/positive-news-api/blob/master/Example.png)
 
 ### Upcoming Web App version of the program
-This will enable the user to use the program hassel free in just one click.
+
+This will enable the users to use the program hassel free in just one click.
+
 ![Future](https://github.com/kunal9960/positive-news-api/blob/master/Future%20version.png)
 
 
